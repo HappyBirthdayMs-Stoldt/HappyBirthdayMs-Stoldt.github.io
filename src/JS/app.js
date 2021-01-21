@@ -1,12 +1,13 @@
 const name = prompt("What's your name?", "");
 const passwords = {
   stoldtPasswords: {
-    stoldt1: "Mrs. Stoldt",
-    stoldt2: "Ms. Stoldt",
+    stoldt1: "Mrs.Stoldt",
+    stoldt2: "Ms.Stoldt",
     stoldt3: "Elena Stoldt",
     stoldt4: "Elena Hartmann",
-    stoldt5: "Mrs. Hartmann",
-    stoldt6: "Ms. Hartmann",
+    stoldt5: "Mrs.Hartmann",
+    stoldt6: "Ms.Hartmann",
+    stoldt7: "Stoldt",
   },
   studentPasswords: {
     student1: "RT",
@@ -20,7 +21,8 @@ if (
   name === passwords.stoldtPasswords.stoldt3 ||
   name === passwords.stoldtPasswords.stoldt4 ||
   name === passwords.stoldtPasswords.stoldt5 ||
-  name == passwords.stoldtPasswords.stoldt6 ||
+  name === passwords.stoldtPasswords.stoldt6 ||
+  name === passwords.stoldtPasswords.stoldt7 ||
   name === passwords.studentPasswords.student1 ||
   name === passwords.studentPasswords.student2
 ) {
